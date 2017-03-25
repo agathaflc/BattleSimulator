@@ -9,7 +9,7 @@
 #define SKILL_H_
 
 class Skill {
-	enum SkillType { provoke, heal }
+	enum SkillType { provoke, heal };
 private:
 	SkillType type;
 };
